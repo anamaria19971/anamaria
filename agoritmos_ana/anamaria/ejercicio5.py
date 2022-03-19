@@ -1,0 +1,5 @@
+capital=int(input("digite el valor de capital:"))
+interes=float(input("digite el valor de interes: "))
+años=int(input("digite el valor de años: "))
+vf=capital*(1+(interes)/100)**(años)
+print(vf)
