@@ -1,6 +1,5 @@
-año=int(input("digite el año"))
-if año%4==0:
-    print("el año es bisiesto")
-if año%400==0 and año%100!=0:
-    print("el año es bisiesto")
-    print("el año no es bisiesto")
+a=list(range(1,5))
+b=[]
+for i in a:
+    b.append(i**2)
+    print (b)

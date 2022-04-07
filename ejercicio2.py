@@ -1,11 +1,6 @@
-color='#AF549B'
-match color:
-    case '#FF0000':
-        print("🔴")
-    case '#00FF00':
-        print("🟢")
-    case '#0000FF':
-        print("🔵")
-    case_:
-        print("no es ningun color")
-
+n=int(input("digite el numero"))
+a=list(range(1,n))
+b=[]
+for i in a:
+    b.append(n**3)
+    print(b)
